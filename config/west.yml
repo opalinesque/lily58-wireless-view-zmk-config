@@ -1,10 +1,10 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: opalinesque
+      url-base: https://github.com/opalinesque
   projects:
     - name: zmk
-      remote: zmkfirmware
+      remote: opalinesque
       revision: main
       import: app/west.yml
   self:
